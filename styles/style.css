@@ -3,6 +3,18 @@
   padding: 0;
   font-family: "Lato", sans-serif;
 }
+/* All buttons */
+button {
+  width: 150px;
+  height: 55px;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 700;
+  background-color: #e55473;
+  border-radius: 10px;
+  border: hidden;
+  cursor: pointer;
+}
 /* Header section */
 header {
   width: 100%;
@@ -21,21 +33,34 @@ header {
   padding-bottom: 15px;
 }
 .header-description {
-  width: 700px;
-  font-size: 22px;
-  line-height: 25px;
+  width: 800px;
+  font-size: 25px;
+  line-height: 30px;
   margin-bottom: 25px;
-}
-.header-btn {
-  width: 150px;
-  height: 55px;
-  color: #fff;
-  font-size: 23px;
-  font-weight: 700;
-  background-color: #e55473;
-  border-radius: 10px;
-  border: hidden;
+  color: rgb(118, 114, 114);
 }
 header img {
   margin-top: 135px;
 }
+/* Extra section */
+.about{
+  padding: 120px; 
+  background: linear-gradient( rgba(245, 231, 231, 0.7), rgba(220, 228, 116, 0.5)), url('https://cdn.pixabay.com/photo/2018/11/03/21/42/sunflowers-3792914_1280.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 120px 250px;
+  text-align: center;
+  align-items: center;
+}
+.about-title
+{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.about-description{
+  font-size: 25px;
+  line-height: 30px;
+}
+/* Featured Flowers */
+.featured

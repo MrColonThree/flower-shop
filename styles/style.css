@@ -29,6 +29,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 70px;
+  overflow: hidden;
 }
 .header-content {
   text-align: left;

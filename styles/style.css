@@ -49,7 +49,7 @@ header img {
 }
 /* Extra section */
 .about {
-  padding: 120px;
+  padding: 130px;
   background: linear-gradient(
       rgba(245, 231, 231, 0.7),
       rgba(220, 228, 116, 0.5)
@@ -182,8 +182,9 @@ header img {
 /* Latest Deal section */
 .latest {
   margin: 120px 230px;
-  padding: 100px 100px;
+  padding: 130px 100px;
   background-image: url("../images/bg.png");
+  background-size: cover;
   text-align: center;
   border-radius: 10px;
 }
@@ -204,9 +205,6 @@ header img {
   margin-right: 10px;
   font-size: 22px;
   padding-left: 10px;
-}
-.latest input::placeholder {
-  font-size: 22px;
 }
 /* Footer Section */
 footer {

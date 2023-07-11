@@ -26,19 +26,20 @@ header {
   height: 100vh;
   background-color: rgba(229, 84, 115, 0.1);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 70px;
 }
 .header-content {
   text-align: left;
-  width: 750px;
+  width: 700px;
 }
 .header-title {
   font-size: 60px;
   padding-bottom: 15px;
 }
 .header-description {
-  width: 800px;
+  width: 730px;
   font-size: 22px;
   line-height: 30px;
   margin-bottom: 25px;
